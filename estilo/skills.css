@@ -1,6 +1,7 @@
 .skills{
     display: flex;
     flex-direction: column;
+    max-width: 1024px;
 }
 
 .skills .tools ul{
@@ -22,17 +23,17 @@
 .skills .personal ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    flex-wrap: wrap;
     margin: auto;
     padding: 0;
 }
 
 .skills .personal ul li{
-    justify-content: center;
     margin-left: 2rem;
     padding-left: .5rem;
+    
 }
 
 @media only screen and (min-width: 768px) {

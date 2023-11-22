@@ -1,3 +1,17 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(3, 3, 92, 0.89), black);
+    color: white;
+    background-attachment: fixed;
+}
+
+main{
+    margin: 10px auto;
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 1024px;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -15,19 +29,6 @@ header .photo{
     border-radius: 50%;
 }
 
-body{
-    background-image: linear-gradient(to bottom, rgba(3, 3, 92, 0.89), black);
-    color: white;
-    background-attachment: fixed;
-}
-
-main{
-    margin: 10px auto;
-    border: 1px solid #fff;
-    padding: 1rem;
-    border-radius: 8px;
-    max-width: 1024px;
-}
 
 .information{
     display: flex;
@@ -91,7 +92,7 @@ main{
     header .title{
         grid-area: title;
         text-align: start;
-        max-width: 190px;
+        max-width: 180px;
     }    
 
     header .information{
