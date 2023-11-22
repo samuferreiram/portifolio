@@ -21,7 +21,7 @@ body{
 
 main{
     margin: .5rem auto;
-    padding: .5rem;
+    padding: 1rem;
     border: 1px solid #fff;
     border-radius: 8px;
     max-width: 1024px;
@@ -37,6 +37,15 @@ main{
 .information p{
     margin: .5rem;
     font-size: 1.125rem;
+}
+
+.information p a{
+    color: white;
+    text-decoration: none;
+}
+
+.information p a:hover{
+    text-decoration: underline;
 }
 
 .information img{
